@@ -1,0 +1,85 @@
+{
+
+    "spots": [
+                {
+                    "name": "Calculadora",
+                    "sell": true,
+                    "price": 700,
+                    "photo": "calculadora.jpg",
+                    "description": "Calculadora Casio del año de la polka en perfecto estado",
+                    "tags": [
+                        "lifestyle"
+                    ]
+                },
+                {
+                    "name": "Batamanta",
+                    "sell": true,
+                    "price": 50,
+                    "photo": "batamanta.jpg",
+                    "description": "Fantástica batamanta modelo leopardo",
+                    "__v": 0,
+                    "tags": [
+                        "lifestyle"
+                    ]
+                },
+
+                {
+                    "name": "Seicientos",
+                    "sell": false,
+                    "price": 600,
+                    "photo": "seiscientos.jpg",
+                    "description": "Se busca Seat 600 con airbag y ordenador a bordo",
+                    "__v": 0,
+                    "tags": [
+                        "motor"
+                    ]
+                },
+                {
+                    "name": "Movil",
+                    "sell": false,
+                    "price": 300,
+                    "photo": "mobile.jpg",
+                    "description": "Busco movil antiguo para regalarselo a Hipster",
+                    "tags": [
+                        "mobile"
+                    ]
+                },
+                {
+                    "name": "Diskettes",
+                    "sell": true,
+                    "price": 30,
+                    "photo": "diskettes.jpg",
+                    "description": "Se venden diskettes para imac pro",
+                    "__v": 0,
+                    "tags": [
+                        "work"
+                    ]
+                },
+
+                {
+                    "name": "Hula hoop",
+                    "sell": false,
+                    "price": 400,
+                    "photo": "hula.jpg",
+                    "description": "Busco hula hoop king size para señora octogenaria",
+                    "__v": 0,
+                    "tags": [
+                        "lifestyle"
+                    ]
+                },
+
+                {
+                    "name": "Hucha",
+                    "sell": true,
+                    "price": 10,
+                    "photo": "hucha.jpg",
+                    "description": "Se vende hucha llena con una cantidad indeterminada de dinero",
+                    "__v": 0,
+                    "tags": [
+                        "lifestyle",
+                        "motor",
+                        "mobile"
+                    ]
+                }
+            ]
+}

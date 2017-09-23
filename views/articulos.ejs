@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+
+  <a href="/" class="volver">Volver</a>
+
+  <main class="spots-container">
+          
+    <section class="spots">
+        
+   
+                <% spots.forEach(function(spot) { %>
+                    <div class="spot">
+                        <h2><%= spot.name  %></h2>
+                        <div class="spot-body">
+                            <div class="col1">
+                                <img src="images/<%= spot.photo  %>">
+                            </div>
+
+                            <div class="col2">
+                                <% if (spot.sell === true) { %>
+                                <div class="sell">Se vende</div>
+                                <% } else { %>
+                                <div class="look">Se busca</div>
+                                <% } %>
+                                <div><span>Descripción:</span> <%= spot.description  %></div>
+                                <div><span>Precio:</span> <%= spot.price  %> €</div>
+                                <div><span>Categoría:</span> <%= spot.tags  %></div>
+                            </div>
+                        </div>
+                    </div>
+                <% }) %>
+ 
+    </section>
+
+</main>
+
+</body>
+</html>
+

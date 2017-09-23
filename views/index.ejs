@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p class="wellcome">Welcome to <%= title %></p>
+    <a href="/apiv1/spots">Visualizar todos los anuncios</a>
+    <a href="/articulos">Visualizar articulos en HTML</a>
+    <section class="filters">
+      <p>Podemos filtrar los articulos por nombre, tipo (se vendo o se busca), precio y tags haciendo peticiones del tipo:</p>
+      <ul>
+        <li>Filtrar por nombre: <span>/apiv1/spots?name=batamanta</span></li>
+        <li>Filtrar por caracteres del nombre: <span>/apiv1/spots?name=h</span></li>
+        <li>Filtrar por se busca o se vende: <span>/apiv1/spots/?sell=false</span></li>
+        <li>Filtrar por rango de precio: <span>/apiv1/spots?price=50</span></li>
+        <li>Filtrar por rango de precio: <span>/apiv1/spots?price=50-400</span></li>
+        <li>Filtrar por tags: <span>/apiv1/spots?tags=mobile</span></li>
+      </ul>
+      <p>Podemos paginar mediante las ordenes "skip" y "limit": <span class="skip">apiv1/spots?skip=2&limit=2</span></p>
+    </section>
+  </body>
+</html>

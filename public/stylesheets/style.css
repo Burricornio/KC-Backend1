@@ -1,0 +1,94 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+  padding: 50px;
+  font-family:  Arial, sans-serif;
+}
+a {
+  color: #00B7FF;
+}
+
+.volver {
+  text-align: center;
+  display: block;
+  margin: 20px;
+}
+.spots-container {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1, .wellcome, a, .filters {
+  margin: 20px;
+}
+h2 {
+    text-align: center;
+    background:#2573bb;
+    padding: 7px;
+    color: white;
+}
+ul {
+    padding: 20px;
+}
+li {
+    margin-bottom: 10px;
+}
+li span, .skip {
+    color: #e28c0d;
+}
+img {
+    display: block;
+    max-width: 100%;
+}
+.spot {
+    overflow: auto;
+    margin: 30px;
+    -webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.88);
+    -moz-box-shadow:    1px 1px 8px 0px rgba(50, 50, 50, 0.88);
+    box-shadow:         1px 1px 8px 0px rgba(50, 50, 50, 0.88);
+  
+}
+.col2 div {
+    margin-bottom: 30px;
+}
+.spot-body {
+    overflow: auto;
+    padding: 14px;
+    border: 1px solid #eee;
+}
+.col1 {
+    width: 35%;
+    float: left;
+    
+}
+.col2 {
+    width: 65%;
+    float: left;
+    padding: 20px;
+    background: white;
+}
+.sell {
+    margin-bottom: 10px;
+    color: red;
+    font-size: 18px;
+    background: #a03d49;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+.look {
+    margin-bottom: 10px;
+    color: red;
+    font-size: 18px;
+    background: #316d4d;
+    color: white;
+    text-align: center;
+    padding: 2px;
+}
+
