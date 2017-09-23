@@ -6,7 +6,7 @@
                     "sell": true,
                     "price": 700,
                     "photo": "calculadora.jpg",
-                    "description": "Calculadora Casio del año de la polka en perfecto estado",
+                    "description": "Se vende calculadora Casio del año de la polka en perfecto estado",
                     "tags": [
                         "lifestyle"
                     ]
@@ -16,7 +16,7 @@
                     "sell": true,
                     "price": 50,
                     "photo": "batamanta.jpg",
-                    "description": "Fantástica batamanta modelo leopardo",
+                    "description": "Vendo fantástica batamanta modelo leopardo",
                     "__v": 0,
                     "tags": [
                         "lifestyle"
@@ -39,7 +39,7 @@
                     "sell": false,
                     "price": 300,
                     "photo": "mobile.jpg",
-                    "description": "Busco movil antiguo para regalarselo a Hipster",
+                    "description": "Busco movil antiguo para regalo de comunión",
                     "tags": [
                         "mobile"
                     ]
@@ -73,7 +73,7 @@
                     "sell": true,
                     "price": 10,
                     "photo": "hucha.jpg",
-                    "description": "Se vende hucha llena con una cantidad indeterminada de dinero",
+                    "description": "Se vende hucha llena con x dinero dentro",
                     "__v": 0,
                     "tags": [
                         "lifestyle",
