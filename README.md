@@ -4,6 +4,10 @@
 
 Backend para dar soporte a una aplicación de venta y busqueda de artículos.
 
+### Nota
+
+    Arrancar servidor mongoDB: bin/mongod --dbpath ./data/db --directoryperdb
+
 ### Instalación
 
 	$ git clone https://github.com/Burricornio/KC-Backend1.git
